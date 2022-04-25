@@ -33,6 +33,15 @@
     }
   }
 
+  &--green {
+    background-color: $color-green-3;
+    color: $color-white-1;
+
+    &::after {
+      background-color: $color-green-3;
+    }
+  }
+
   &::after {
     content: '';
     display: inline-block;
