@@ -25,11 +25,11 @@
   }
 
   &--white {
-    background-color: $color-white;
+    background-color: $color-white-1;
     color: $color-grey;
 
     &::after {
-      background-color: #fff;
+      background-color: $color-white-1;
     }
   }
 
@@ -61,14 +61,14 @@
   &:link,
   &:visited {
     font-size: $default-font-size;
-    color: $color-primary;
+    color: $color-green-3;
     display: inline-block;
     text-decoration: none;
     transition: all 0.2s ease;
   }
 
   &:hover {
-    background: $color-primary;
+    background: $color-green-3;
     color: #fff;
     padding: 0px 10px;
     border-radius: 5px;

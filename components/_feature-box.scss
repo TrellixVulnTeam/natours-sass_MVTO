@@ -1,5 +1,5 @@
 .feature-box {
-  background-color: rgba($color-white, 0.8);
+  background-color: rgba($color-white-1, 0.8);
   min-width: 250px;
   padding: 2.5rem;
   text-align: center;
@@ -11,10 +11,10 @@
     font-size: 6rem;
     margin-bottom: 0.5rem;
     background-image: linear-gradient(
-      to right,
-      $color-primary,
-      $color-secondary,
-      $color-tertiary
+      to right bottom,
+      $color-green-3,
+      $color-blue-2,
+      $color-blue-3
     );
     -webkit-background-clip: text;
     color: transparent;
