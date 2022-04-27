@@ -74,6 +74,7 @@
     display: inline-block;
     text-decoration: none;
     transition: all 0.2s ease;
+    border-bottom: 2px solid $color-green-3;
   }
 
   &:hover {
